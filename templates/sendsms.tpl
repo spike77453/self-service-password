@@ -55,8 +55,7 @@
     </div>
 {else}
     {if $show_help}
-    <div class="help alert shadow alert-warning">
-        <i class="fa fa-fw fa-info-circle"></i>
+    <div>
         {if $sms_use_ldap}
             {$msg_sendsmshelpnosms|unescape: "html" nofilter}
         {else}

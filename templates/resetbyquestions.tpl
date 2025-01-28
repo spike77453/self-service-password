@@ -10,8 +10,8 @@
 {/if}
 {if $result !== 'passwordchanged'}
     {if $show_help}
-    <div class="help alert shadow alert-warning">
-    <i class="fa fa-fw fa-info-circle"></i> {$msg_resetbyquestionshelp|unescape: "html" nofilter}
+    <div>
+     {$msg_resetbyquestionshelp|unescape: "html" nofilter}
     {if $question_populate_enable }
         <br /><i class="fa fa-fw fa-info-circle"></i> {$msg_questionspopulatehint}
     {/if}

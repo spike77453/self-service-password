@@ -10,8 +10,8 @@
 {/if}
 {if $result !== "passwordchanged"}
     {if $show_help }
-        <div class="result alert shadow alert-warning">
-        <i class="fa fa-fw fa-exclamation-circle" aria-hidden="true"></i> {$msg_changehelp}
+        <div>
+         {$msg_changehelp}
         {if $msg_changehelpextramessage}
            <br />{$msg_changehelpextramessage|unescape: "html" nofilter}
         {/if}

@@ -1,7 +1,7 @@
 {if $result !== 'sshkeychanged'}
     {if $show_help }
-        <div class="help alert shadow alert-warning">
-        <i class="fa fa-fw fa-info-circle"></i> {$msg_changesshkeyhelp}
+        <div>
+         {$msg_changesshkeyhelp}
         </div>
     {/if}
     <div class="alert shadow alert-info">
