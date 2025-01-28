@@ -19,12 +19,12 @@
         {/foreach}
         {else}
         {if $error != ""}
-            <div class="result alert shadow alert-{$result_criticity}">
-                <i class="fa fa-fw {$result_fa_class}" aria-hidden="true"></i> {$error|unescape: "html" nofilter}
+            <h1>
+                 {$error|unescape: "html" nofilter}
                 {if $show_extended_error and $extended_error_msg}
                     ({$extended_error_msg})
                 {/if}
-            </div>
+            </h1>
         {/if}
         {include file="$action.tpl"}
         {/if}
